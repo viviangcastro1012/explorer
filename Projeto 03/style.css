@@ -1,0 +1,122 @@
+/*  ================== BASE ========= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c2b3d;
+  color: #c2c2c2;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00bfa6;
+  font-weight: 700;
+  filter: drop-shadow(-6px 3px 8px green) brightness(1.15);
+}
+
+.wrapper {
+  width: 1090px;
+  margin: 0 auto;
+}
+
+/*  ================== HEADER ========= */
+
+header {
+  margin: 71px 0 101px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*  ================== NAV ========= */
+
+nav,
+ul {
+  display: inherit;
+}
+
+nav ul {
+  gap: 64px;
+  list-style: none;
+}
+
+nav li {
+  color: white;
+  font: 500 14px/28px "JetBrains Mono", monospace;
+}
+
+nav a {
+  color: white;
+}
+
+li {
+  list-decoration: none;
+}
+
+/*  ================== MAIN ========= */
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+main .content {
+  text-align: center;
+}
+
+main h1 {
+  font: 700 36px/40px "JetBrains Mono", monospace;
+  color: white;
+  margin-bottom: 59px;
+}
+
+main span {
+  color: #00bfa6;
+  font-weight: 700;
+}
+
+main p {
+  margin-bottom: 40px;
+  width: 604px;
+}
+
+/*  ================== FOOTER ========= */
+
+footer {
+  margin-top: 157px;
+}
+
+#line {
+  margin: 0 auto;
+  height: 0;
+  width: 52%;
+  border-top: 1px solid #00bfa6;
+  margin-bottom: 27px;
+}
+
+footer p {
+  text-align: center;
+  font: 500 14px/28px "JetBrains Mono", monospace;
+}
+
+footer a {
+  color: #c2c2c2;
+}
+
+/*  ================== DECORATION ========= */
+
+#decoration {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
